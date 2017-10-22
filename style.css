@@ -1,0 +1,62 @@
+body {
+	background-color: #ffe5ff;
+	font-family: 'Varela Round', sans-serif;
+}
+
+footer {
+	font-family: 'Varela Round', sans-serif;
+	min-height: 50px;
+}
+
+h1 {
+	color: #ffe5ff;
+	text-transform: uppercase;
+	font-size: 46px;
+}
+
+h2 {
+	text-align: center;
+	vertical-align: middle;
+	color: #ffe5ff;
+	opacity: 1.0;
+}
+
+p {
+	color: #ffe5ff;
+	text-transform: uppercase;
+}
+
+.container {
+	background-color: #84A7D8;
+}
+
+.col-md-12 {
+	padding: 50px;
+}
+
+.col-sm-4 {
+	min-height: 150px;
+	margin-top: 20px;
+}
+
+.padding-top {
+	margin-top: 50px;
+}
+
+.background-img {
+	height: 150px;
+	width: 150px;
+	opacity: 0.4;
+	z-index: 1;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a:hover .background-img { 
+    opacity: 1.0;
+}
